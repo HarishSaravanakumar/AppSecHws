@@ -1,5 +1,5 @@
 language: c
 # install: make get-deps
-compiler: gcc
+# compiler: gcc
 # script: make all
  
