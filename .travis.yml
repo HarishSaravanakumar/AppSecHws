@@ -1,5 +1,8 @@
 language: c
 # install: make get-deps
-# compiler: gcc
-# script: make all
+compiler: gcc
+script: 
+    spell.c dictionary.c -o spell
+    ./spell test_worlist.txt wordlist.txt
+
  
