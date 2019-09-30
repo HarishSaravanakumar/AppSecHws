@@ -7,6 +7,10 @@ int main(int argc, char * argv[]){
     char *misspelled[MAX_MISSPELLED]; //array that holds misspelled words
     int misspell_count = check_words(test_file, hashtable, misspelled);
     fclose(test_file);
+<<<<<<< HEAD
     bool yes = check_words('Justice', hashtable);
     printf("Justice: %d\n",yes);
+=======
+    printf("MISPELLED: %i\n",misspell_count);
+>>>>>>> 1567d6ad590fe8fa657853b355cf090d52b39e12
 }
